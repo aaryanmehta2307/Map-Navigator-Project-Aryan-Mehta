@@ -2,3 +2,25 @@
     margin: 50px 0 0;
 
 }
+.btn {
+    background-color: yellow;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add a smooth transition effect for both properties */
+}
+
+.btn:hover {
+    /* background-color: lightyellow; Change color on hover */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add an upward movement on hover */
+}
+
+.btn:active {
+    background-color: #ffee00; /* Change color when clicked/pressed */
+    transform: scale(0.95); /* Add an inward movement on click */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add an upward movement on hover */
+}
+
