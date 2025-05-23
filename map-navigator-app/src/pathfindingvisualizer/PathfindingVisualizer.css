@@ -241,3 +241,32 @@ footer {
 .reset-btn:hover {
     background-color: #ff4500;
 }
+
+.description {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.description .node {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    vertical-align: middle;
+}
+
+.node-start {
+    background-color: green;
+}
+
+.node-finish {
+    background-color: red;
+}
+
+.node-wall {
+    background-color: black;
+}
