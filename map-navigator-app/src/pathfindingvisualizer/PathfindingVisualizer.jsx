@@ -186,7 +186,7 @@ export default class PathfindingVisualizer extends Component {
           )}
         </div>
         <div className="description"> 
-            <div className="description-heading"> Select node as</div>
+            <div className="description-heading"> Select node as:</div>
           <p> 
             <span className="node node-start" /> <strong>Green:</strong> Source
             Node &nbsp;&nbsp;
